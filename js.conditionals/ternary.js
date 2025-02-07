@@ -1,45 +1,15 @@
-// const age = 18;
+const num1 = 30;
+const num2 = 20;
+let result 
 
-// age >= 18 ? console.log('vote diyo') : console.log('ghumai thako')
-
-let price = 1100;
-const isLeader = true;
-
-// if( isLeader == true){
-//     price = 0;
+// if(num1 > num2){
+//     result =  num1*2;
+//     console.log(result);
 // }
-// else {
-//     price = price + 100;
-// }
-// console.log(price)
-
-
-
-//nested version
-// price = isLeader === true ? price = 0 : price + 100 ;
-// console.log(price)
-
-//optional: semi-advanced ternary
-
-// if ( isLeader === true ){
-//     if( price > 1000){
-//         price = price /2;
-//     }
-//     else{
-//         price = 0;
-//     }
-// }
-
 // else{
-//     price = price + 100 ;
+//     result = num1 + num2;
+//     console.log(result);
 // }
-// console.log( price)
 
-
-//converting to ternary
-
-
-price = isLeader === true ? price > 1000 ? price/2 : 0 : price + 100 ;
-
-
-console.log(price)
+result = num1 > num2 ? num1*2 : num1 + num2;
+console.log(result);
